@@ -20,7 +20,7 @@ namespace BatteryRetreiveInfo
             {
                 foreach(var prop in single.Properties)
                 {
-                    Console.WriteLine("Name :{0}");
+                    Console.WriteLine($"{prop.Name}, {prop.Type}, {prop.Origin}, {prop.Value}");
                 }
             }
 
